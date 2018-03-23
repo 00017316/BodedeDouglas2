@@ -5,8 +5,83 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.marcelo.bodadedouglas.MainActivity">
 
+    <RelativeLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:paddingBottom="55dp"
+            android:paddingRight="55dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="#83f"/>
 
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:paddingBottom="55dp"
+            android:paddingLeft="55dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="#83f"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_margin="45dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="#83f"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:paddingTop="55dp"
+                android:paddingRight="55dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="#83f"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="25dp"
+                android:paddingTop="55dp"
+                android:paddingLeft="55dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="#83f"/>
+
+            <View
+                android:layout_width="6dp"
+                android:layout_height="match_parent"
+                android:background="#000"/>
+        </LinearLayout>
+    </RelativeLayout>
 
 </LinearLayout>
